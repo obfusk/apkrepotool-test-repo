@@ -1,0 +1,19 @@
+Categories:
+  - Money
+License: GPL-3.0-or-later
+AuthorName: Sylvia van Os
+AuthorEmail: catima.g9ex3@hackerchick.me
+AuthorWebSite: https://sylviavanos.nl
+WebSite: https://catima.app/
+SourceCode: https://github.com/CatimaLoyalty/Android
+IssueTracker: https://github.com/CatimaLoyalty/Android/issues
+Translation: https://hosted.weblate.org/projects/catima/catima/
+Changelog: https://github.com/CatimaLoyalty/Android/blob/HEAD/CHANGELOG.md
+Donate: https://paypal.me/sylviavanos
+
+Name: Catima
+
+AllowedAPKSigningKeys: d405cd69ede4c22074c328fb825689a84ab3fca4b3fdf0b6cc1333af62c67eb3
+
+CurrentVersion: 2.29.0
+CurrentVersionCode: 134

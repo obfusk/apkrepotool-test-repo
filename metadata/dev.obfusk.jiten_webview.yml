@@ -1,0 +1,18 @@
+Categories:
+  - Science & Education
+License: GPL-3.0-or-later
+AuthorName: obfusk
+AuthorEmail: flx@obfusk.net
+AuthorWebSite: https://obfusk.ch
+WebSite: https://jiten.obfusk.dev
+SourceCode: https://github.com/obfusk/jiten-webview
+IssueTracker: https://github.com/obfusk/jiten-webview/issues
+Changelog: https://github.com/obfusk/jiten-webview/releases
+Donate: https://ko-fi.com/obfusk
+
+Name: Jiten Japanese Dictionary [Online]
+
+AllowedAPKSigningKeys: e3603f6a1c0a41cb00ee821bbc4d07032d4b2ca26d03745d4a26ebebfbc7d4fd
+
+CurrentVersion: 1.0.3
+CurrentVersionCode: 202108010

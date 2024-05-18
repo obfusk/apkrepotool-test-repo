@@ -1,0 +1,11 @@
+repo_url: https://example.com/test/repo
+repo_name: Test Repo
+repo_description: >-
+  This is a repository of apps to be used with an F-Droid-compatible client.
+  Applications in this repository are official binaries built by the original
+  application developers.
+
+repo_keyalias: testrepo
+keystore: keystore.jks
+keystorepass_cmd: cat .keystorepass
+keypass_cmd: cat .keypass
