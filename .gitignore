@@ -1,0 +1,8 @@
+featureGraphic_*.png
+icon_*.png
+
+cache/
+repo/*.jar
+repo/*.json
+repo/diff/
+repo/index.*
