@@ -1,6 +1,7 @@
 featureGraphic_*.png
 icon_*.png
 
+.tmp/
 cache/
 repo/*.jar
 repo/*.json
