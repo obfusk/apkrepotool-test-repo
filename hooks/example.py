@@ -1,5 +1,6 @@
 import os
 import subprocess
+import sys
 
 from pathlib import Path
 
@@ -16,4 +17,5 @@ def run(tc: apkrepotool.ToolConfig, *args: str) -> None:
     env = dict(COUNT_RECIPES=str(config["count_recipes"]).lower(),
                COUNT_APKS=str(config["count_apks"]).lower())
     print(f"RUNNING example.py\n  name={__name__}\n  config={config}\n  args={args}")
+    sys.stdout.flush()  # flush before calling shell script b/c of buffering
     subprocess.run(["bash", str(shell_script), *args], check=True, env={**os.environ, **env})
