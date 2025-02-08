@@ -7,3 +7,5 @@ repo/*.jar
 repo/*.json
 repo/diff/
 timestamps.json
+
+__pycache__

@@ -9,3 +9,18 @@ repo_keyalias: testrepo
 keystore: keystore.jks
 keystorepass_cmd: cat .keystorepass
 keypass_cmd: cat .keypass
+
+aliases:
+  u: update
+  test:
+    - lint
+    - update -v
+    - link
+    - example
+
+hooks:
+  - name: example
+    info: example hook
+    config:
+      count_recipes: true
+      count_apks: true

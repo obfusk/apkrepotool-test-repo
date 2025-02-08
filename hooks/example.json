@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "example hook config",
+  "description": "example hook config (in config.yml)",
+  "type": "object",
+  "properties": {
+    "count_recipes": {
+      "type": "boolean"
+    },
+    "count_apks": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "count_recipes",
+    "count_apks"
+  ],
+  "additionalProperties": false
+}
