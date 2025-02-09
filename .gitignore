@@ -3,6 +3,7 @@ icon_*.png
 
 .tmp/
 cache/
+errors.json
 repo/*.jar
 repo/*.json
 repo/diff/
