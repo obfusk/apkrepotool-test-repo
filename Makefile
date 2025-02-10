@@ -6,4 +6,4 @@ all:
 
 clean:
 	rm -fr .tmp/ cache/ repo/*/*/{featureGraphic,icon}_*.png repo/*.{jar,json} \
-	  repo/diff/ timestamps.json hooks/__pycache__/
+	  repo/diff/ errors.json timestamps.json hooks/__pycache__/
